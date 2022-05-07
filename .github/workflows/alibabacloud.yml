@@ -19,8 +19,8 @@
 
 name: Build and Deploy to ACK
 
-on:
-  push:
+on:acer local machine
+  push:C:
     branches:
       - master
 
@@ -48,7 +48,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: production
     
-    steps:
+    steps:fix
     - name: Checkout
       uses: actions/checkout@v3
     
